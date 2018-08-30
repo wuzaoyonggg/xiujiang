@@ -1,0 +1,129 @@
+page {
+  background-color: #eeeeee;
+}
+
+
+.do-top {
+  height: 80rpx;
+  width: 100%;
+  background-color: #fe9b01;
+  display: flex;
+  align-items: center;
+}
+.do-top text {
+  font-size: 28rpx;
+  margin-left: 30rpx;
+  color: #ffffff;
+}
+
+
+
+
+
+.dm-row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 10rpx;
+  position: relative;
+  border-bottom: 1px solid #eeeeee;
+  height: 100rpx;
+}
+.dm-row2 image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0rpx 14rpx 0rpx 30rpx;
+}
+.dm-row2 view:nth-child(2) {
+  font-size: 24rpx;
+  color: #343434;
+}
+.dm-row2 view:nth-child(3) {
+  font-size: 22rpx;
+  color: #ff9800;
+  position: absolute;
+  right: 30rpx;
+}
+.dm-row3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  position: relative;
+  border-bottom: 1px solid #eeeeee;
+  height: 100rpx;
+}
+.dm-row3 image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0rpx 14rpx 0rpx 30rpx;
+}
+.dm-row3 view:nth-child(2) {
+  font-size: 24rpx;
+  color: #343434;
+}
+.dm-row3 view:nth-child(3) {
+  font-size: 22rpx;
+  color: #343434;
+  position: absolute;
+  right: 30rpx;
+}
+
+
+
+
+.list {
+  margin-top: 10rpx;
+}
+.list1 {
+  height: 120rpx;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list1 > view:nth-child(1) {
+  margin-left: 30rpx;
+}
+.list1 > view:nth-child(2) {
+  margin-right: 30rpx;
+}
+.list1 > view:nth-child(1) > view:nth-child(1) {
+  font-size: 26rpx;
+  color: #343434;
+}
+.list1 > view:nth-child(1) > view:nth-child(2) {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #ababab;
+}
+.list1 > view:nth-child(2) > view:nth-child(1) {
+  font-size: 26rpx;
+  color: #343434;
+  float: right;
+}
+.list1 > view:nth-child(2) > view:nth-child(3) {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #343434;
+}
+.text-color1 {
+  color: #343434;
+}
+.text-color2 {
+  color: #fe9901;
+}
+.textcolor3 {
+  color: #ff0302;
+}
+.fail {
+  height: 30rpx;
+  font-size: 22rpx;
+  color: #ff0302;
+  margin-top: 10rpx;
+  float: right;
+  margin-right: 30rpx;
+}

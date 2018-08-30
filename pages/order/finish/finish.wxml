@@ -89,6 +89,52 @@
 
 <view class='order-detail-footer'>
   <button class='order-detail-footer-btn1' bindtap='goToOrderList'>返回</button>
-  <button class='order-detail-footer-btn1'>评价</button>
-  <button class='order-detail-footer-btn2'>申请售后</button>
+  <button class='order-detail-footer-btn1' bindtap='goToComment'>评价</button>
+  <button class='order-detail-footer-btn2' bindtap='alertTips'>申请售后</button>
+</view>
+
+
+
+<!-- 弹出窗 -->
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view wx:if="{{showModal}}" class='alert-content'>
+  <view class='alert-header'>
+    <text class='alert-text1'>售后服务内容\n</text>
+    <text class='alert-text2'>请选择售后服务内容，我们会快速为您解决</text>
+  </view>
+  <view class='alert-radios'>
+    <view class='alert-radio' bindtap='changeDuiClass' data-json='first'>
+      <text class='{{first?"alert-radio-dui":"alert-radio-dui1"}}'>√</text>
+      <text class='alert-radio-text'>手机坏了，需要更换零件</text>
+    </view>
+    <view class='alert-radio' bindtap='changeDuiClass' data-json='second'>
+      <text class='{{second?"alert-radio-dui":"alert-radio-dui1"}}'>√</text>
+      <text class='alert-radio-text'>修理引起其他部位损坏</text>
+    </view>
+    <view class='alert-radio' bindtap='changeDuiClass' data-json='third'>
+      <text class='{{third?"alert-radio-dui":"alert-radio-dui1"}}'>√</text>
+      <text class='alert-radio-text'>工程师收费不当</text>
+    </view>
+    <view class='alert-radio' bindtap='changeDuiClass' data-json='fourth'>
+      <text class='{{fourth?"alert-radio-dui":"alert-radio-dui1"}}'>√</text>
+      <text class='alert-radio-text'>发现维修零件老旧</text>
+    </view>
+    <view class='alert-radio' bindtap='changeDuiClass' data-json='fifth'>
+      <text class='{{fifth?"alert-radio-dui":"alert-radio-dui1"}}'>√</text>
+      <text class='alert-radio-text'>快过了保质期随便点点</text>
+    </view>
+    <view class='alert-radio' bindtap='changeDuiClass' data-json='sixth'>
+      <text class='{{sixth?"alert-radio-dui":"alert-radio-dui1"}}'>√</text>
+      <text class='alert-radio-text'>其他</text>
+    </view>
+  </view>
+  <view>
+    <textarea placeholder='您可以输入100个字' class='alert-textarea' 
+    placeholder-class='alert-placeholder'></textarea>
+  </view>
+  <view class='alert-footer'>
+    <view class='alert-btn1'></view>
+    <view class='alert-btn2'>提交</view>
+    <view class='alert-btn3'></view>
+  </view>
 </view>

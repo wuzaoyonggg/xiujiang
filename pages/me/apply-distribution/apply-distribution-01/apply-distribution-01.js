@@ -1,16 +1,11 @@
-// pages/order/repair/repair.js
+// pages/me/apply-distribution/apply-distribution-01/apply-distribution-01.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    orders: [
-      {
-        id: '5642', orderno: '12334524', phoneName: '苹果iphone 7', color: '白色', serviceMode: '上门', address: '天府国际金融中心',
-        date: '08月22日 14：00-18：00', remark: '少放辣', state: 3
-      }
-    ]
+  
   },
 
   /**
@@ -68,8 +63,7 @@ Page({
   onShareAppMessage: function () {
   
   },
-  goToOrderList: function() {
-    wx.navigateBack({
-    })
+  dataInput: function(event) {
+    console.log(event.detail.value);
   }
 })

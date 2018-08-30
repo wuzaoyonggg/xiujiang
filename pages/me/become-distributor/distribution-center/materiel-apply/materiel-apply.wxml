@@ -1,0 +1,47 @@
+<view class='do-top'>
+  <view>
+    <text space='emsp'>累计申领： 0份</text>
+  </view>
+  <view bindtap='goToMaterielApply2'>
+    申领物料
+  </view>
+</view>
+
+
+
+<view class='list' wx:for='{{lists}}' wx:key='lists'>
+  <view class='list1'>
+    <text space='ensp'>物料名称 : </text>
+    <text space='ensp'>{{item.name}} </text>
+    <text space='ensp'>申领状态 : </text>
+    <text>{{item.applyState}}</text>
+  </view>
+  <view class='list2'>
+    <text space='ensp'>申领数量 : </text>
+    <text>{{item.totalNum}}</text>
+    <text space='ensp'>份  </text>
+    <text space='ensp'>绑定数量 : </text>
+    <text>{{item.bindNum}}</text>
+    <text space='ensp'>份  </text>
+    <text space='ensp'>剩余数量 : </text>
+    <text>{{item.overplus}}</text>
+    <text space='ensp'>份  </text>
+  </view>
+  <view class='list3'>
+    <view>
+      <text>接收邮箱：</text>
+      <text>{{item.mail}}</text>
+    </view>
+    <view>
+      <text>申领时间：</text>
+      <text space='ensp'>{{item.date}}</text>
+    </view>
+  </view>
+</view>
+
+
+
+<view class='no-date' wx:if='{{lists.length == 0}}'>
+  <view class='iconfont icon-konggouwuche'></view>
+  <view>暂时没有任何申领记录</view>
+</view>

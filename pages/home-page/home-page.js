@@ -1,16 +1,19 @@
-// pages/order/repair/repair.js
+// pages/home-page/home-page.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    orders: [
-      {
-        id: '5642', orderno: '12334524', phoneName: '苹果iphone 7', color: '白色', serviceMode: '上门', address: '天府国际金融中心',
-        date: '08月22日 14：00-18：00', remark: '少放辣', state: 3
-      }
-    ]
+    imgUrls: [
+      '/images/swiper1.jpg',
+      '/images/swiper2.jpg',
+      '/images/swiper3.jpg'
+    ],
+    indicatorDots: true,
+    autoplay: true,
+    interval: 3000,
+    duration: 1000
   },
 
   /**
@@ -67,9 +70,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  goToOrderList: function() {
-    wx.navigateBack({
-    })
   }
 })

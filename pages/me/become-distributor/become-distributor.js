@@ -1,23 +1,18 @@
-// pages/order/repair/repair.js
+// pages/me/become-distributor/become-distributor.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    orders: [
-      {
-        id: '5642', orderno: '12334524', phoneName: '苹果iphone 7', color: '白色', serviceMode: '上门', address: '天府国际金融中心',
-        date: '08月22日 14：00-18：00', remark: '少放辣', state: 3
-      }
-    ]
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    
   },
 
   /**
@@ -68,8 +63,9 @@ Page({
   onShareAppMessage: function () {
   
   },
-  goToOrderList: function() {
-    wx.navigateBack({
+  goToDistributionCenter: function() {
+    wx.navigateTo({
+      url: '/pages/me/become-distributor/distribution-center/distribution-center'
     })
   }
 })

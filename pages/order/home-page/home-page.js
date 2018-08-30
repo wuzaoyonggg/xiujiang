@@ -86,28 +86,28 @@ Page({
   
   },
   goToOrderDetail: function(event) {
-    var data = event.currentTarget.id;
-    console.log(data);
-    // if(state == 1) {
-    //   wx.navigateTo({
-    //     url: '/pages/order/submitted/submitted?id='+id+'&state='+state
-    //   })
-    // }else if(state == 2) {
-    //   wx.navigateTo({
-    //     url: '/pages/order/accept/accept?id='+id+'&state='+state
-    //   })
-    // }else if(state == 3) {
-    //   wx.navigateTo({
-    //     url: '/pages/order/repair/repair?id=' + id + '&state=' + state
-    //   })
-    // }else if(state == 4) {
-    //   wx.navigateTo({
-    //     url: '/pages/order/payment/payment?id=' + id + '&state=' + state
-    //   })
-    // }else if(state == 5) {
-    //   wx.navigateTo({
-    //     url: '/pages/order/finish/finish?id=' + id + '&state=' + state
-    //   })
-    // }
+    var id = event.currentTarget.dataset.id;
+    var state = event.currentTarget.dataset.state;
+    if(state == 1) {
+      wx.navigateTo({
+        url: '/pages/order/submitted/submitted?id='+id+'&state='+state
+      })
+    }else if(state == 2) {
+      wx.navigateTo({
+        url: '/pages/order/accept/accept?id='+id+'&state='+state
+      })
+    }else if(state == 3) {
+      wx.navigateTo({
+        url: '/pages/order/repair/repair?id=' + id + '&state=' + state
+      })
+    }else if(state == 4) {
+      wx.navigateTo({
+        url: '/pages/order/payment/payment?id=' + id + '&state=' + state
+      })
+    }else if(state == 5) {
+      wx.navigateTo({
+        url: '/pages/order/finish/finish?id=' + id + '&state=' + state
+      })
+    }
   }
 })

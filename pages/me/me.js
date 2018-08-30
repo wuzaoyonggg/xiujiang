@@ -1,16 +1,11 @@
-// pages/order/finish/finish.js
+// pages/me/me.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    orders: [
-      {
-        id: '12384', orderno: '12334524', phoneName: '苹果iphone 5', color: '白色', serviceMode: '上门', address: '天府国际金融中心',
-        date: '08月22日 14：00-18：00', remark: '少放辣', state: 5
-      }
-    ],
+    showTop: false,
     showModal: false
   },
 
@@ -69,17 +64,6 @@ Page({
   onShareAppMessage: function () {
   
   },
-  goToOrderList: function() {
-    wx.navigateBack({
-    })
-  },
-  goToComment: function() {
-    wx.navigateTo({
-      url: '/pages/order/comment/comment'
-    })
-  },
-  preventTouchMove: function () {
-  },
   alertTips: function () {
     this.setData({
       showModal: true
@@ -89,6 +73,8 @@ Page({
     this.setData({
       showModal: false
     });
+  },
+  preventTouchMove: function () {
   },
   changeDuiClass: function (event) {
     var str = event.currentTarget.dataset.json;

@@ -343,3 +343,137 @@ page {
 }
 
 
+
+
+
+/* 弹出窗 */
+.alert-content {
+  width: 595rpx;
+  height: 950rpx;
+  background-color:#f9f9f9;
+  position: fixed;
+  top: 75rpx;
+  left: 75rpx;
+  z-index: 9999;
+  border-radius: 10rpx;
+}
+.alert-header {
+  border-bottom: 1px solid #d0d0d0;
+}
+.alert-text1 {
+  display: inline-block;
+  margin-top: 39rpx;
+  margin-left: 23rpx;
+  color: #414141;
+}
+.alert-text2 {
+  display: inline-block;
+  margin-bottom: 40rpx;
+  margin-left: 23rpx;
+  font-size: 30rpx;
+  color: #040404;
+}
+.alert-radios {
+  margin-top: 40rpx;
+}
+.alert-radio {
+  margin-bottom: 20rpx;
+}
+.alert-radio-dui {
+  margin-left: 25rpx;
+  font-size: 30rpx;
+  display: inline-block;
+  height: 40rpx;
+  width: 40rpx;
+  border: 2px solid #ffa804;
+  border-radius: 24rpx;
+  text-align: center;
+  color: #ffa804;
+}
+.alert-radio-dui1 {
+  margin-left: 25rpx;
+  font-size: 30rpx;
+  display: inline-block;
+  height: 44rpx;
+  width: 44rpx;
+  background-color: #808080;
+  border-radius: 22rpx;
+  text-align: center;
+  color: #efefef;
+}
+.alert-radio-text {
+  margin-left: 25rpx;
+  color: #686868;
+  font-size: 30rpx;
+}
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+}
+.alert-textarea {
+  display: inline-block;
+  width: 95%;
+  height: 125rpx;
+  border: 1rpx solid #d4d4d4;
+  border-radius: 10rpx;
+  background-color: #ffffff;
+  margin-left: 2.5%;
+}
+.alert-placeholder {
+  font-size: 28rpx;
+  color: #5d5d5d;
+}
+.alert-footer {
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 33rpx;
+  position: relative
+}
+.alert-btn {
+  margin: 0rpx;
+  width: 285rpx;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  border-radius: 15rpx;
+  background-color: #ffcc01;
+  font-size: 30rpx;
+  color: #ffffff;
+}
+.alert-btn1 {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  background-color: #ffcc01;
+  position: relative;
+  left: 30rpx;
+}
+.alert-btn2 {
+  width: 240rpx;
+  height: 60rpx;
+  background-color: #ffcc01;
+  font-size: 30rpx;
+  color: #ffffff;
+  text-align: center;
+  line-height: 60rpx;
+}
+.alert-btn3 {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  background-color: #ffcc01;
+  position: relative;
+  right: 30rpx;
+}
+
+

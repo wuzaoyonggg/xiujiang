@@ -1,0 +1,244 @@
+page {
+  background-color: #eeeeee;
+}
+
+.dis-center-top {
+  height: 262rpx;
+  width: 100%;
+  background-color: #fe9b01;
+  padding-top: 24rpx;
+}
+.dis-center-top1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30rpx;
+  position: relative;
+}
+.dis-center-image1 {
+  width: 114rpx;
+  height: 114rpx;
+}
+.dis-center-text1 {
+  margin-left: 20rpx;
+  margin-top: 16rpx;
+}
+.dis-center-text1 view:nth-child(1) {
+  font-size: 28rpx;
+  color: #ffffff;
+  margin-bottom: 15rpx;
+}
+.dis-center-text1 view:nth-child(2) {
+  font-size: 22rpx;
+  color: #ffffff;
+}
+.dis-center-btn1 {
+  font-size: 20rpx;
+  color: #ffffff;
+  width: 120rpx;
+  height: 36rpx;
+  text-align: center;
+  line-height: 36rpx;
+  border: 1px solid #ffffff;
+  border-radius: 36rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 16rpx;
+}
+
+
+
+.dis-center-top2 {
+  display: flex;
+  flex-direction: row;
+  font-size: 20rpx;
+  color: #ffffff;
+  margin-top: 44rpx;
+}
+.dis-center-top2-1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+.dis-center-top2-1 view:nth-child(1) {
+  margin-bottom: 22rpx;
+}
+.dis-center-top2-2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+.dis-center-top2-2 view:nth-child(1) {
+  margin-bottom: 22rpx;
+}
+.dis-center-top2-3 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+.dis-center-top2-3 view:nth-child(1) {
+  margin-bottom: 22rpx;
+}
+.dis-center-top2-4 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+.dis-center-top2-4 view:nth-child(1) {
+  margin-bottom: 22rpx;
+}
+
+
+
+
+.yongjin {
+  height: 140rpx;
+  width: 100%;
+  margin-top: 10rpx;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  padding-top: 27rpx;
+}
+.yongjin-1 {
+  height: 108rpx;
+  width: 49%;
+  padding-left: 30rpx;
+  border-right: 1px solid #eeeeee;
+}
+.yongjin-1 view:nth-child(1){
+  font-size: 24rpx;
+  color: #fe9b01;
+  margin-bottom: 26rpx;
+}
+.yongjin-1 view:nth-child(2){
+  font-size: 22rpx;
+  color: #343434;
+}
+.yongjin-2 {
+  width: 50%;
+  height: 108rpx;
+  position: relative;
+  padding-left: 30rpx;
+}
+.yongjin-2 view:nth-child(1){
+  font-size: 24rpx;
+  color: #fe9b01;
+  margin-bottom: 26rpx;
+}
+.yongjin-2 view:nth-child(2){
+  font-size: 22rpx;
+  color: #343434;
+}
+.yongjin-2 view:nth-child(3) {
+  width: 100rpx;
+  height: 46rpx;
+  border: 1px solid #fe9b01;
+  border-radius: 46rpx;
+  font-size: 24rpx;
+  color: #fe9b01;
+  text-align: center;
+  line-height: 46rpx;
+  position: absolute;
+  right: 30rpx;
+  bottom: 15rpx;
+}
+
+
+
+
+
+.dis-center-content {
+  height: 301rpx;
+  width: 100%;
+  background-color: #ffffff;
+  margin-top: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dis-center-content-1 {
+  width: 97%;
+  height: 93%;
+}
+.dis-center-content-1-1 {
+  height: 49%;
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: row;
+}
+
+.dis-center-content-1-2 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.dis-center-content image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 30rpx;
+  margin-left: 26rpx;
+}
+.dis-center-content-1-1-1 {
+  height: 100%;
+  width: 49%;
+  border-right: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dis-center-content-1-1-1-1 view:nth-child(1){
+  font-size: 26rpx;
+}
+.dis-center-content-1-1-1-1 view:nth-child(2){
+  font-size: 22rpx;
+}
+.dis-center-content-1-1-2 {
+  height: 100%;
+  width: 49%;
+  border-right: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dis-center-content-1-1-3 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.dis-center-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 10rpx;
+  height: 90rpx;
+}
+.dis-center-bottom-image1 {
+  width: 28rpx;
+  height: 28rpx;
+  margin: 0rpx 18rpx 0rpx 35rpx;
+}
+.me-image2 {
+  width: 20rpx;
+  height: 26rpx;
+}
+.me-text1 {
+  font-size: 26rpx;
+  color: #343434;
+}
+.me-right {
+  color: #343434;
+  position: absolute;
+  right: 30rpx;
+}
+

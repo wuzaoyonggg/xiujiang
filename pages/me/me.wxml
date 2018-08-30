@@ -1,0 +1,126 @@
+<view class='me-top' wx:if='{{showTop}}'>
+  <view class='alert-footer'>
+    <view class='alert-btn1'></view>
+    <view class='alert-btn2'>立即登陆</view>
+    <view class='alert-btn3'></view>
+  </view>
+</view>
+
+<view class='me-top2' wx:if='{{!showTop}}'>
+  <view class='me-head-image'>
+    <image src='/images/me/head-image.png' class='me-head-image1'></image>
+  </view>
+  <view class='me-top2-name'>
+    秦芬芬
+  </view>
+  <view class='me-top2-phone'>
+    13578766041
+  </view>
+</view>
+
+
+<view class='me-center1' bindtap='alertTips'>
+  <view>
+    <image src='/images/me/分销商-34.png' class='me-image1'></image>
+  </view>
+  <view class='me-text1'>
+    申请分销
+  </view>
+  <view class='me-right'>
+    <image src='/images/me/Arrow拷贝.png' class='me-image2'></image>
+  </view>
+</view>
+
+<view class='me-center1'>
+  <view>
+    <image src='/images/me/历史订单.png' class='me-image1'></image>
+  </view>
+  <view class='me-text1'>
+    历史订单
+  </view>
+  <view class='me-right'>
+    <image src='/images/me/Arrow拷贝.png' class='me-image2'></image>
+  </view>
+</view>
+
+<view class='me-center1'>
+  <view>
+    <image src='/images/me/地址管理.png' class='me-image1'></image>
+  </view>
+  <view class='me-text1'>
+    地址管理
+  </view>
+  <view class='me-right'>
+    <image src='/images/me/Arrow拷贝.png' class='me-image2'></image>
+  </view>
+</view>
+
+<view class='me-center2'>
+  <view>
+    <image src='/images/me/客服.png' class='me-image1'></image>
+  </view>
+  <view class='me-text1'>
+    联系客服
+  </view>
+  <view class='me-right'>
+    <image src='/images/me/Arrow拷贝.png' class='me-image2'></image>
+  </view>
+</view>
+
+<view class='me-center1'>
+  <view>
+    <image src='/images/me/帮助中心.png' class='me-image1'></image>
+  </view>
+  <view class='me-text1'>
+    帮助中心
+  </view>
+  <view class='me-right'>
+    <image src='/images/me/Arrow拷贝.png' class='me-image2'></image>
+  </view>
+</view>
+
+<view class='me-center1'>
+  <view>
+    <image src='/images/me/设置.png' class='me-image1'></image>
+  </view>
+  <view class='me-text1'>
+    设置
+  </view>
+  <view class='me-right'>
+    <image src='/images/me/Arrow拷贝.png' class='me-image2'></image>
+  </view>
+</view>
+
+
+
+
+<!-- 弹出窗 -->
+
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view wx:if="{{showModal}}" class='alert-content'>
+  <view class='alert-view1'>
+    <view class='alert-view1-1'></view>
+    <view class='alert-view1-2'>普通伙伴</view>
+    <view class='alert-view1-3'></view>
+  </view>
+  <view class='alert-view2'>
+    <view class='alert-view2-1'></view>
+    <view class='alert-view2-2'>合作伙伴</view>
+    <view class='alert-view2-3'></view>
+  </view>
+  <view class='alert-view3'>
+    <view class='alert-view3-1'></view>
+    <view class='alert-view3-2'>高级合作伙伴</view>
+    <view class='alert-view3-3'></view>
+  </view>
+  <view class='alert-view4'>
+    <view class='alert-view4-1'></view>
+    <view class='alert-view4-2'>省/市/区代理</view>
+    <view class='alert-view4-3'></view>
+  </view>
+</view>
+<view class='alert-bottom-x' wx:if="{{showModal}}">
+  x
+</view>
+
+

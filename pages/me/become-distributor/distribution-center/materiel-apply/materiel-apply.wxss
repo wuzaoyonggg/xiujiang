@@ -1,0 +1,114 @@
+page {
+  background-color: #eeeeee;
+}
+
+
+.do-top {
+  height: 80rpx;
+  width: 100%;
+  background-color: #fe9b01;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.do-top text {
+  font-size: 28rpx;
+  margin-left: 30rpx;
+  color: #ffffff;
+}
+.do-top > view:nth-child(2) {
+  font-size: 28rpx;
+  color: #000000;
+  margin-right: 30rpx;
+}
+
+
+
+.list {
+  margin-top: 10rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  background-color: #ffffff;  
+}
+.list1 {
+  height: 77rpx;
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #888888;
+  border-bottom: 1px solid #eeeeee;
+}
+.list1 text:nth-child(2) {
+  color: #fe9901;
+}
+.list1 text:nth-child(4) {
+  color: #fe9901;
+}
+.list2 {
+  height: 77rpx;
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #888888;
+  border-bottom: 1px solid #eeeeee;
+}
+.list2 text:nth-child(2) {
+  color: #fe9901;
+}
+.list2 text:nth-child(5) {
+  color: #fe9901;
+}
+.list2 text:nth-child(8) {
+  color: #fe9901;
+}
+.list3 {
+  height: 112rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24rpx;
+  color: #888888;
+}
+.list3 > view:nth-child(2) {
+  margin-top: 10rpx;
+}
+.list3 text:nth-child(2) {
+  color: #fe9901;
+}
+.list3 text:nth-child(4) {
+  color: #fe9901;
+}
+
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 812265 */
+  src: url('//at.alicdn.com/t/font_812265_74bifb71z4m.eot');
+  src: url('//at.alicdn.com/t/font_812265_74bifb71z4m.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_812265_74bifb71z4m.woff') format('woff'),
+  url('//at.alicdn.com/t/font_812265_74bifb71z4m.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_812265_74bifb71z4m.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-konggouwuche:before { content: "\e645"; font-size: 70px; color: #888888;}
+
+.no-date {
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-date view:nth-child(2) {
+  margin-top: 30rpx;
+  font-size: 26rpx;
+  color: #888888;
+}

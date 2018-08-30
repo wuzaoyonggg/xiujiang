@@ -1,0 +1,38 @@
+<view class='md-top'>
+  <view class='{{bindClass?"border-bottom":"xxxx"}}' bindtap='changeClass' data-id='1'>
+    一级（59）
+  </view>
+  <view class='{{bindClass?"xxxx":"border-bottom"}}' bindtap='changeClass' data-id='2'>
+    二级（329）
+  </view>
+</view>
+
+
+<view class='md-top2'>
+  <view class='iconfont icon-wujiaoxingkong'></view>
+  <view>代表已成为分销商的下线</view>
+</view>
+
+
+<view class='list' wx:for='{{lists}}' wx:key='lists'>
+  <view class='list1'>
+    <view>
+      <view>
+        <image src=''></image>
+      </view>
+      <view>
+        <view class='list-text1'>{{item.name}}</view>
+        <view class='list-text2'>
+        <text space='ensp'>注册时间：{{item.date}}</text>
+        </view>
+      </view>
+    </view>
+    <view class='list2'>
+      <view>
+        <view>+{{item.member}}</view>
+        <view>{{item.member}}个成员</view>
+      </view>
+    </view>
+  </view>
+</view>
+

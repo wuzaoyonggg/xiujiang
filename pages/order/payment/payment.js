@@ -67,5 +67,9 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  goToOrderList: function() {
+    wx.navigateBack({
+    })
   }
 })

@@ -1,0 +1,61 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='hp=swiper'>
+  <block wx:for="{{imgUrls}}" wx:key='imgUrls'>
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='hp-images'>
+  <view>
+    <image src='/images/home-page/极速上门.png' class='hp-image-1' style='height: 180rpx;'></image>
+    <image src='/images/home-page/速度快-01.png' class='hp-image-2'></image>
+  </view>
+  <view>
+    <image src='/images/home-page/原厂品质.png' class='hp-image-3' style='height: 220rpx;'></image>
+    <image src='/images/home-page/品质保证.png' class='hp-image-2'></image>
+  </view>
+  <view>
+    <image src='/images/home-page/维修录像.png' class='hp-image-3' style='height: 220rpx;'></image>
+    <image src='/images/home-page/品质保证拷贝.png' class='hp-image-2'></image>
+  </view>
+  <view>
+    <image src='/images/home-page/极速上门拷贝.png' class='hp-image-1' style='height: 180rpx;'></image>
+    <image src='/images/home-page/图层7拷贝.png' class='hp-image-2'></image>
+  </view>
+</view>
+
+
+<view class='hp-images2'>
+  
+  <image src='/images/home-page/bg1.png' class='hp-images2-bg'></image>
+  <view>
+    <image src='/images/home-page/图层8.png' class='hp-images2-1'></image>
+  </view>
+  <view>
+    <image src='/images/home-page/马上维修.png' class='hp-images2-2'></image>
+  </view>
+  <view>
+    <image src='/images/home-page/联系客服.png' class='hp-images2-3'></image>
+  </view>
+</view>
+
+
+
+<view class='hp-comment'>
+  <view class='hp-comment-first'>[ 用户评价 ]</view>
+  <view class='hp-comment-second'>
+    <text>生命的亮光\t</text><text>138****5123</text>
+  </view>
+  <view class='hp-comment-third'>
+    <text>"服务周到,修理得快!"</text>
+  </view>
+  <view class='hp-comment-fourth'>
+    <text>维修时间\t</text><text>2018-8-23\t17:01</text>
+  </view>
+</view>
+
+<view class='page-bgg'>
+  <image src='/images/home-page/chilun.png' class='page-bg'></image>
+</view>
+

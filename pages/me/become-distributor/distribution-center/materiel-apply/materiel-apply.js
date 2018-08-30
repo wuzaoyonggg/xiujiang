@@ -1,14 +1,22 @@
-// pages/order/repair/repair.js
+// pages/me/become-distributor/distribution-center/materiel-apply/materiel-apply.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    orders: [
+    lists: [
       {
-        id: '5642', orderno: '12334524', phoneName: '苹果iphone 7', color: '白色', serviceMode: '上门', address: '天府国际金融中心',
-        date: '08月22日 14：00-18：00', remark: '少放辣', state: 3
+        name: '门店物料1', applyState: '待审核', totalNum: 2, bindNum: 0, overplus: 0,
+        mail: '243534523@qq.com', date: '2018-1-1 13:14:42'
+      },
+      {
+        name: '门店物料2', applyState: '已通过', totalNum: 3, bindNum: 3, overplus: 0,
+        mail: '243534523@qq.com', date: '2018-2-1 14:14:42'
+      },
+      {
+        name: '门店物料3', applyState: '待审核', totalNum: 4, bindNum: 0, overplus: 0,
+        mail: '243534523@qq.com', date: '2018-3-1 15:14:42'
       }
     ]
   },
@@ -68,8 +76,9 @@ Page({
   onShareAppMessage: function () {
   
   },
-  goToOrderList: function() {
-    wx.navigateBack({
+  goToMaterielApply2: function() {
+    wx.navigateTo({
+      url: '/pages/me/become-distributor/distribution-center/materiel-apply/materiel-apply2/materiel-apply2'
     })
   }
 })

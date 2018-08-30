@@ -1,0 +1,139 @@
+page {
+  background-color: #eeeeee;
+}
+
+.dm-top {
+  height: 205rpx;
+  width: 100%;
+  background-color: #fe9b01;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 62rpx;
+}
+.dm-top view:nth-child(1) {
+  font-size: 36rpx;
+  margin-bottom: 24rpx;
+}
+.dm-top view:nth-child(2) {
+  font-size: 22rpx;
+}
+
+
+.dm-row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 10rpx;
+  position: relative;
+  height: 100rpx;
+}
+.dm-row1 image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0rpx 14rpx 0rpx 30rpx;
+}
+.dm-row1 view:nth-child(2) {
+  font-size: 24rpx;
+  color: #343434;
+}
+.dm-row1 view:nth-child(3) {
+  font-size: 22rpx;
+  color: #fe9901;
+  position: absolute;
+  right: 30rpx;
+}
+
+
+
+
+.dm-row2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  margin-top: 10rpx;
+  position: relative;
+  border-bottom: 1px solid #eeeeee;
+  height: 100rpx;
+}
+.dm-row2 image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0rpx 14rpx 0rpx 30rpx;
+}
+.dm-row2 view:nth-child(2) {
+  font-size: 24rpx;
+  color: #343434;
+}
+.dm-row2 view:nth-child(3) {
+  font-size: 22rpx;
+  color: #343434;
+  position: absolute;
+  right: 30rpx;
+}
+.dm-row3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  position: relative;
+  border-bottom: 1px solid #eeeeee;
+  height: 100rpx;
+}
+.dm-row3 image{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0rpx 14rpx 0rpx 30rpx;
+}
+.dm-row3 view:nth-child(2) {
+  font-size: 24rpx;
+  color: #343434;
+}
+.dm-row3 view:nth-child(3) {
+  font-size: 22rpx;
+  color: #343434;
+  position: absolute;
+  right: 30rpx;
+}
+
+
+
+
+
+.dm-row4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  height: 90rpx;
+}
+.dm-row4 image {
+  height: 20rpx;
+  width: 35rpx;
+  position: absolute;
+  right: 30rpx;
+}
+.dm-row4 view:nth-child(1) {
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  color: #343434;
+  
+}
+.dm-row5 {
+  font-size: 22rpx;
+  padding-left: 30rpx;
+  padding-top: 20rpx;
+  background-color: #ffffff;
+  color: #adadad;
+  height: 155rpx;
+}
+.dm-row5 text {
+  color: #fe9b01;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}

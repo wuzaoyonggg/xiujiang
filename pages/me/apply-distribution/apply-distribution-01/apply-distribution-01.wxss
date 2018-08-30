@@ -1,0 +1,71 @@
+
+.content1 {
+  padding-top: 30rpx;
+}
+.content11 {
+  display: flex;
+  flex-direction: row;
+}
+.content11-1 {
+  width: 60rpx;
+  height: 60rpx;
+  border: 1px solid #343434;
+  border-right: 0rpx;
+  border-radius: 30rpx 0rpx 0rpx 30rpx;
+  position: relative;
+  left: 30rpx;
+}
+.content11-input {
+  width: 630rpx;
+  height: 60rpx;
+  border-top: 1px solid #343434;
+  border-bottom: 1px solid #343434;
+}
+.content11-2 {
+  width: 60rpx;
+  height: 60rpx;
+  border: 1px solid #343434;
+  border-left: 0rpx;
+  border-radius: 0rpx 30rpx 30rpx 0rpx;
+  position: relative;
+  right: 30rpx;
+}
+.content1-text {
+  margin-left: 30rpx;
+  margin-bottom: 16rpx;
+  font-size: 26rpx;
+  color: #343434;
+}
+
+
+.zhuyi {
+  margin-top: 50rpx;
+  margin-left: 30rpx;
+}
+.zhuyi1 {
+  font-size: 26rpx;
+  color: #343434;
+  margin-bottom: 20rpx;
+}
+.zhuyi2 view{
+  font-size: 24rpx;
+  color: #888888;
+  margin-bottom: 10rpx;
+}
+
+
+
+.btn {
+  width: 620rpx;
+  height: 80rpx;
+  background-color: #fe9901;
+  color: #ffffff;
+  text-align: center;
+  line-height: 80rpx;
+  border-radius: 40rpx;
+}
+.btn1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100rpx;
+}
