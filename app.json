@@ -1,14 +1,25 @@
 {
   "pages": [
+    "pages/home-page/home-page",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/order/submitted/submitted",
     "pages/order/home-page/home-page",
+    "pages/order/submitted/submitted",
     "pages/order/comment/comment",
     "pages/order/accept/accept",
     "pages/order/repair/repair",
     "pages/order/payment/payment",
-    "pages/order/finish/finish"
+    "pages/order/finish/finish",
+    "pages/me/me",
+    "pages/me/apply-distribution/apply-distribution-01/apply-distribution-01",
+    "pages/me/become-distributor/become-distributor",
+    "pages/me/become-distributor/distribution-center/distribution-center",
+    "pages/me/become-distributor/distribution-center/distribution-money/distribution-money",
+    "pages/me/become-distributor/distribution-center/distribution-order/distribution-order",
+    "pages/me/become-distributor/distribution-center/me-downline/me-downline",
+    "pages/me/become-distributor/distribution-center/get-money/get-money",
+    "pages/me/become-distributor/distribution-center/materiel-apply/materiel-apply",
+    "pages/me/become-distributor/distribution-center/materiel-apply/materiel-apply2/materiel-apply2"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,28 +30,20 @@
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "pagePath": "pages/home-page/home-page",
+        "text": "首页"
       },
       {
         "pagePath": "pages/order/home-page/home-page",
-        "text": "维修",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "维修"
       },
       {
         "pagePath": "pages/order/home-page/home-page",
-        "text": "订单",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "text": "订单"
       },
       {
-        "pagePath": "pages/order/finish/finish",
-        "text": "我的",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "pagePath": "pages/me/become-distributor/distribution-center/materiel-apply/materiel-apply2/materiel-apply2",
+        "text": "我的"
       }
     ]
   }
