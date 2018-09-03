@@ -1,0 +1,27 @@
+<view class='content flex-row'>
+
+  <view class="section-left">
+    <scroll-view scroll-y="true" enable-back-to-top="true" style="height: 100%;">
+      <view wx:for="{{brandList}}" wx:for-index="index" wx:for-item="brand" class='section-left-item {{index==brandindex?"active":""}}' data-index="{{index}}" bindtap='sectionLeftClick'>
+        {{brand.title}}
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class='section-right'>
+    <scroll-view scroll-y="true" enable-back-to-top="true" style="height: 100%">
+      <view  wx:for="{{brandVersionList}}" wx:for-index="index" wx:for-item="brandVersion">
+        <view class='section-right-title'>{{brandVersion.title}}</view>
+        <view class="section-right-item ">
+          <view class='section-right-item-view flex-col' wx:for="{{brandVersion.versionList}}" wx:for-index="index" wx:for-item="version">
+            <image src='{{version.img}}' class='version-img'></image>
+            <view>{{version.title}}</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+
+
+
+</view>

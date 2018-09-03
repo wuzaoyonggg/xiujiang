@@ -1,0 +1,150 @@
+<view class='rc-image'></view>
+<view class='rc-name'>iphone X</view>
+
+
+
+<view class='list1'>
+  <view>更换机型</view>
+  <view>
+    <view>更改当前机型设置</view>
+    <view class='iconfont icon-jiantou1'></view>
+  </view>
+</view>
+
+<view class='interval'></view>
+
+
+<view class='list1' bindtap='alertTips'>
+  <view>选择配色</view>
+  <view>
+    <view>选择您的机型配色</view>
+    <view class='iconfont icon-jiantou1'></view>
+  </view>
+</view>
+<!-- 弹出窗 -->
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<!-- 如果手机的颜色过多，可以在后台判断一下颜色数量是否大于4 -->
+<!-- 如果大于4则将颜色拆分为多个json对象 每个json对象有4种颜色，再分别循环出来 -->
+<view wx:if="{{showModal}}" class='alert-content'>
+  <view>
+    <view bindtap='changeColor'><text class='select'>金色</text></view>
+    <view><text>银色</text></view>
+    <view><text>白色</text></view>
+    <view><text>紫色</text></view>
+  </view>
+  <view>
+    <view><text>金色</text></view>
+    <view><text>银色</text></view>
+    <view><text>白色</text></view>
+    <view><text>紫色</text></view>
+  </view>
+</view>
+
+
+<view class='interval'></view>
+
+
+<view class='list1'>
+  <view>故障维修方案</view>
+  <view>
+    <view>维修说明</view>
+    <view class='iconfont icon-jiantou1'></view>
+  </view>
+</view>
+
+
+<view class='list2'>
+  <view>屏幕问题/旧屏回收</view>
+  <view>
+    <view class='iconfont icon-hao'></view>
+  </view>
+</view>
+
+
+<view class='list2'>
+  <view>电池/充电问题</view>
+  <view>
+    <view class='iconfont icon-hao'></view>
+  </view>
+</view>
+
+
+<view class='list2'>
+  <view>内存升级/更换硬盘</view>
+  <view>
+    <view class='iconfont icon-hao'></view>
+  </view>
+</view>
+
+
+<view class='list2'>
+  <view>主板维修</view>
+  <view>
+    <view class='iconfont icon-hao'></view>
+  </view>
+</view>
+
+
+<view class='list2'>
+  <view>摄像头问题</view>
+  <view>
+    <view class='iconfont icon-hao'></view>
+  </view>
+</view>
+
+
+<view class='list2'>
+  <view>外壳边框问题</view>
+  <view>
+    <view class='iconfont icon-hao'></view>
+  </view>
+</view>
+
+
+<view class='list2'>
+  <view>声音问题</view>
+  <view>
+    <view class='iconfont icon-hao'></view>
+  </view>
+</view>
+
+
+<view class='list2' bindtap='showMore'>
+  <view>按键问题</view>
+  <view>
+    <view class='{{showMore?"iconfont icon-cha":"iconfont icon-hao"}}'></view>
+  </view>
+</view>
+<view class='alert-radios' wx:if='{{showMore}}'>
+    <view class='alert-radio' bindtap='changeDuiClass' data-json='first'>
+      <view>
+        <text class='{{first?"iconfont icon-gou":"iconfont icon-tubiaoku-"}}'></text>
+        <text class='alert-radio-text'>音量键</text>
+      </view>
+      <view class='alert-radio-text'>￥{{price1}}</view>
+    </view>
+    <view class='alert-radio' bindtap='changeDuiClass' data-json='second'>
+      <view>
+        <text class='{{second?"iconfont icon-gou":"iconfont icon-tubiaoku-"}}'></text>
+        <text class='alert-radio-text'>HOME键</text>
+      </view>
+      <view class='alert-radio-text'>￥{{price2}}</view>
+    </view>
+  </view>
+
+<view class='list2'>
+  <view>其他问题</view>
+  <view>
+    <view class='iconfont icon-hao'></view>
+  </view>
+</view>
+
+
+
+<view class='interval'></view>
+
+
+<view class='list3'>
+  <view>￥{{price}}</view>
+  <view>确认</view>
+</view>

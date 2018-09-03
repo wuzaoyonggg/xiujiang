@@ -43,7 +43,7 @@
   </view>
 </view>
 
-<view class='me-center1'>
+<view class='me-center1' bindtap='goToAddressManage'>
   <view>
     <image src='/images/me/地址管理.png' class='me-image1'></image>
   </view>
@@ -79,7 +79,7 @@
   </view>
 </view>
 
-<view class='me-center1'>
+<view class='me-center1' bindtap='goToSetting'>
   <view>
     <image src='/images/me/设置.png' class='me-image1'></image>
   </view>

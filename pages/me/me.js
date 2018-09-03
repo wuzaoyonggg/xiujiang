@@ -64,6 +64,16 @@ Page({
   onShareAppMessage: function () {
   
   },
+  goToAddressManage: function() {
+    wx.navigateTo({
+      url: '/pages/me/address-manage/address-manage'
+    })
+  },
+  goToSetting: function() {
+    wx.navigateTo({
+      url: '/pages/me/setting/setting'
+    })
+  },
   alertTips: function () {
     this.setData({
       showModal: true

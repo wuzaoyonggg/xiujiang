@@ -1,0 +1,53 @@
+<view class='list1'>
+  <view>姓名</view>
+  <input placeholder='省代百分比例' placeholder-class='ph-class' value='技术测试'></input>
+</view>
+
+
+
+<view class='list1'>
+  <view>电话</view>
+  <input placeholder='省代百分比例' placeholder-class='ph-class' value='13888888888'></input>
+</view>
+
+
+<view class='list1'>
+  <view>支付宝</view>
+  <input placeholder='省代百分比例' placeholder-class='ph-class' value='728364829@qq.com'></input>
+</view>
+
+
+<view class='list1'>
+  <view>省代</view>
+  <input placeholder='省代百分比例' placeholder-class='ph-class'></input>
+</view>
+
+
+<view class='list1'>
+  <view>市代</view>
+  <input placeholder='市代百分比例' placeholder-class='ph-class'></input>
+</view>
+
+
+<view class='list1'>
+  <view>区代</view>
+  <input placeholder='区代百分比例' placeholder-class='ph-class'></input>
+</view>
+
+
+<view class='list1'>
+  <view>门店</view>
+  <input placeholder='门店百分比例' placeholder-class='ph-class'></input>
+</view>
+
+
+
+<view class='btn1'>
+  <view class='btn2'>
+    <text>保存提交</text>
+  </view>
+</view>
+
+<view class='ps-bottom1'>
+  <view class='ps-bottom2' bindtap='goToUserProtocol'>《用户协议》</view>
+</view>

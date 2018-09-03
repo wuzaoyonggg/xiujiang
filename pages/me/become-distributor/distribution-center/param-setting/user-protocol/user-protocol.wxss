@@ -1,0 +1,16 @@
+page {
+  font-size: 28rpx;
+  color: #494949;
+  display: flex;
+  justify-content: center;
+}
+
+.text1 {
+  margin-top: 20rpx;
+  width: 90%;
+}
+text {
+  font-size: 30rpx;
+  color: #3a3a3a;
+  font-weight: 600;
+}

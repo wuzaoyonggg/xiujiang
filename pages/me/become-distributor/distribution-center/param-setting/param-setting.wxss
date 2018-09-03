@@ -1,0 +1,60 @@
+page {
+  background-color: #eeeeee;
+}
+
+
+.list1 {
+  margin-top: 10rpx;
+  background-color: #ffffff;
+  height: 90rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.list1 view:nth-child(1) {
+  font-size: 28rpx;
+  color: #888888;
+  margin-left: 30rpx;
+  flex: 1;
+}
+.list1 input {
+  flex: 3;
+  font-size: 28rpx;
+  color: #000000;
+}
+.ph-class {
+  font-size: 24rpx;
+  color: #bebebe;
+}
+
+
+
+
+.btn1 {
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+}
+.btn2 {
+  height: 80rpx;
+  width: 620rpx;
+  background-color: #fe9901;
+  border-radius: 40rpx;
+  font-size: 34rpx;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.ps-bottom1 {
+  margin-top: 44rpx;
+  display: flex;
+  justify-content: center;
+}
+.ps-bottom2 {
+  font-size: 28rpx;
+  color: #fb9f22;
+}
