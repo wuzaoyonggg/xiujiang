@@ -19,7 +19,13 @@
     "pages/me/become-distributor/distribution-center/me-downline/me-downline",
     "pages/me/become-distributor/distribution-center/get-money/get-money",
     "pages/me/become-distributor/distribution-center/materiel-apply/materiel-apply",
-    "pages/me/become-distributor/distribution-center/materiel-apply/materiel-apply2/materiel-apply2"
+    "pages/me/become-distributor/distribution-center/materiel-apply/materiel-apply2/materiel-apply2",
+    "pages/me/become-distributor/distribution-center/param-setting/param-setting",
+    "pages/me/become-distributor/distribution-center/param-setting/user-protocol/user-protocol",
+    "pages/me/setting/setting",
+    "pages/me/address-manage/address-manage",
+    "pages/me/address-manage/add-address/add-address",
+    "pages/repair/fault-choose/repair-content/repair-content"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -34,7 +40,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/order/home-page/home-page",
+        "pagePath": "pages/repair/fault-choose/repair-content/repair-content",
         "text": "维修"
       },
       {
@@ -42,7 +48,7 @@
         "text": "订单"
       },
       {
-        "pagePath": "pages/me/become-distributor/distribution-center/materiel-apply/materiel-apply2/materiel-apply2",
+        "pagePath": "pages/me/become-distributor/distribution-center/distribution-center",
         "text": "我的"
       }
     ]
