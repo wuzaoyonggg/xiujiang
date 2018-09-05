@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/repair/smx/repair-index/repair-index",
     "pages/home-page/home-page",
     "pages/index/index",
     "pages/logs/logs",
@@ -26,6 +27,7 @@
     "pages/me/address-manage/address-manage",
     "pages/me/address-manage/add-address/add-address",
     "pages/repair/fault-choose/repair-content/repair-content"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -40,7 +42,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/repair/fault-choose/repair-content/repair-content",
+        "pagePath": "pages/repair/smx/repair-index/repair-index",
         "text": "维修"
       },
       {
